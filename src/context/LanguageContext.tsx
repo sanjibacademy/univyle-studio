@@ -30,7 +30,7 @@ export const translations: Translations = {
   visitors: { en: 'Total Visitors', bn: 'ভিজিটরস' },
   all_prompts: { en: 'All Prompts', bn: 'সব প্রম্পট' },
   all_categories: { en: 'All Categories', bn: 'সব ক্যাটাগরি' },
-  hero_title_val: { en: 'Discover Premium AI Prompts & Freelance Digital Solutions', bn: 'প্রিমিয়াম এআই প্রম্পটস এবং ফ্রিল্যান্স ডিজিটাল সলিউশন' },
+  hero_title_val: { en: 'Discover Premium  1 AI Prompts & Freelance Digital Solutions', bn: 'প্রিমিয়াম এআই প্রম্পটস এবং ফ্রিল্যান্স ডিজিটাল সলিউশন' },
   hero_subtitle_val: { en: 'Welcome to UNIVYLE Studio. Your hub for ChatGPT / Midjourney prompts, high-end Graphics, cinematic Video Editing, and Full-Stack Web Development.', bn: 'ইউনিভাইল স্টুডিওতে স্বাগতম। ChatGPT/Midjourney প্রম্পট, হাই-এন্ড গ্রাফিক্স, সিনেমাটিক ভিডিও এডিটিং এবং ফুল-স্ট্যাক ওয়েব ডেভেলপমেন্টের ওয়ান-স্টপ হাব।' },
   notification_alert_val: { en: '🔥 SPECIAL OFFER: Register for any UNIVYLE course today and get a 20% discount. Book a callback call now!', bn: '🔥 বিশেষ অফার: যেকোনো কোর্সে আজই ভর্তি হয়ে আকর্ষণীয় ডিসকাউন্ট পান। এখনই ফ্রি পরামর্শ কল বুক করুন!' },
 
