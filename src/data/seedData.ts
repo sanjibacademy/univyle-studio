@@ -1,0 +1,536 @@
+import { AppData } from '@/types';
+
+export const initialSeedData: AppData = {
+  prompts: [
+    {
+      id: 'p-1',
+      title: 'Cinematic Cyberpunk Street Portrait',
+      type: 'midjourney',
+      category: 'Photography',
+      promptText: 'A high-contrast cinematic portrait of a neon cyberpunk street racer, dramatic lighting from blue and pink neon signs, ultra-detailed, Unreal Engine 5 render, shot on Hasselblad H6D-100c, depth of field --ar 16:9 --style raw --v 6.0',
+      description: 'Generates stunning cyberpunk portraits with cinematic neon glows and depth of field.',
+      author: 'UNIVYLE Creator',
+      likes: 128,
+      copyCount: 450,
+      createdAt: '2026-06-25T10:00:00Z',
+      featuredImage: 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600&auto=format&fit=crop&q=80'
+    },
+    {
+      id: 'p-2',
+      title: 'Minimalist Vector Logo for Tech Brand',
+      type: 'midjourney',
+      category: 'Branding',
+      promptText: 'A minimalist vector logo of an abstract infinity loops merging with a digital cloud, glowing green and teal colors, deep dark background, clean lines, professional, modern, corporate identity, style of Apple and Airbnb --no realistic shading --v 6.0',
+      description: 'Ideal for getting clean, modern logo designs with tech vibes.',
+      author: 'UNIVYLE Creator',
+      likes: 94,
+      copyCount: 231,
+      createdAt: '2026-06-26T14:30:00Z',
+      featuredImage: 'https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=600&auto=format&fit=crop&q=80'
+    },
+    {
+      id: 'p-3',
+      title: 'Creative Web Developer Copywriting Agent',
+      type: 'chatgpt',
+      category: 'Copywriting',
+      promptText: 'Act as a professional conversion copywriter specializing in Web Development agencies. Write a hero section copy for a premium studio named "UNIVYLE Studio" that offers Web Development, Graphics Design, and Video Editing. Focus on driving leads and showcasing personal branding. Structure the response with a compelling Heading, Subheading, Primary CTA button text, and three Bullet points highlighting value propositions. Tone should be bold, professional, and style-driven.',
+      description: 'Get high-converting website hero section copy for agency or freelance websites.',
+      author: 'UNIVYLE Copywriter',
+      likes: 154,
+      copyCount: 512,
+      createdAt: '2026-06-27T08:15:00Z',
+      featuredImage: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&auto=format&fit=crop&q=80'
+    },
+    {
+      id: 'p-4',
+      title: 'Isometric 3D Workspace Scene',
+      type: 'midjourney',
+      category: '3D Illustration',
+      promptText: 'An isometric 3D render of a creative video editing workstation, glowing monitor with premiere pro timeline, neon blue and cyan mood, miniature modeling style, cozy room, high-detail octane render, 8k resolution --ar 4:3 --v 6.0',
+      description: 'Fabulous isometric cozy workstation layout, great for banners and social media.',
+      author: 'UNIVYLE Art',
+      likes: 83,
+      copyCount: 184,
+      createdAt: '2026-06-28T16:45:00Z',
+      featuredImage: 'https://images.unsplash.com/photo-1618005198143-e5283b519a7f?w=600&auto=format&fit=crop&q=80'
+    },
+    {
+      id: 'p-5',
+      title: 'Viral YouTube Script Generator',
+      type: 'chatgpt',
+      category: 'Content Creation',
+      promptText: 'Generate a highly engaging, 5-minute YouTube video script about "How AI is Revolutionizing Video Editing and Graphics Design in 2026". The script must include a strong hook in the first 15 seconds, a list of 3 cutting-edge tools that every creator must learn, a personal branding tip, and a smooth transition into a freelance service call-to-action (CTAs for graphics, video editing, or web dev). Format with clear narration vs. visual B-roll cues.',
+      description: 'Generates structured scripts designed to retain viewers and maximize engagement.',
+      author: 'UNIVYLE Media',
+      likes: 112,
+      copyCount: 395,
+      createdAt: '2026-06-29T09:00:00Z',
+      featuredImage: 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=600&auto=format&fit=crop&q=80'
+    },
+    {
+      id: 'p-6',
+      title: 'Figma to Tailwind CSS Prompt',
+      type: 'chatgpt',
+      category: 'Coding',
+      promptText: 'You are an expert Frontend Engineer. Convert this design description into fully responsive Tailwind CSS and React 19 code: A sleek pricing card section with three tiers (Basic, Pro, enterprise), custom borders with gradient neon colors, glowing hover animations, checkmarks with custom bullet designs, and responsive grid layout. Use only Lucide icons and ensure clean typography.',
+      description: 'Converts mock descriptions directly into beautiful, responsive Tailwind UI code.',
+      author: 'UNIVYLE Dev',
+      likes: 140,
+      copyCount: 610,
+      createdAt: '2026-06-30T11:20:00Z',
+      featuredImage: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&auto=format&fit=crop&q=80'
+    }
+  ],
+  blogs: [
+    {
+      id: 'b-1',
+      title: 'Mastering Cinematic Lighting in Midjourney v6: Complete Guide',
+      excerpt: 'Learn how to construct highly detailed prompts with precise lighting commands to achieve studio-grade photos and graphics using Midjourney v6.',
+      content: `AI image generation has evolved drastically, and Midjourney v6 is at the absolute forefront of photographic realism and style precision. However, many creators still struggle to get consistent, dramatic results. The secret lies in **Cinematic Lighting**.
+
+### 1. The Power of "Physically Accurate" Lights
+Instead of using vague terms like "photorealistic" or "ultra-detailed", use precise physical descriptors:
+- **Rim Lighting / Backlighting**: Creates a luminous outline around the subject, separating them from the background.
+- **Volumetric Lighting**: Simulates light beams cutting through fog, smoke, or dust. Ideal for moody, cinematic cyberpunk scenes.
+- **Chiaroscuro**: High contrast between light and dark, creating an intense, editorial mood.
+
+### 2. Camera and Lens Specifics
+Midjourney v6 responds incredibly well to authentic camera gear terms. Mentioning lenses like \`shot on Hasselblad H6D-100c\` or \`85mm f/1.4 lens\` tells the model to simulate a shallow depth-of-field and organic light dispersion.
+
+### 3. Color Temperature Branding
+Set the mood using temperature values:
+- *Warm Golden Hour* (2700K - 3000K) for nostalgic, emotional, or natural portraits.
+- *Neon Vaporwave Cools* (cyan, pink, neon blue) for tech, cyberpunk, and nocturnal club atmospheres.
+
+By structuring your prompts with physical lighting types first, camera specs second, and subject descriptions third, you will drastically elevate your output quality.`,
+      category: 'Graphics Design',
+      author: 'Sanjib Sarkar',
+      readTime: '5 min read',
+      coverImage: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80',
+      createdAt: '2026-06-28T08:00:00Z',
+      tags: ['Midjourney', 'AI Art', 'Lighting', 'Prompting']
+    },
+    {
+      id: 'b-2',
+      title: 'The Freelancer\'s Handbook: Building a Powerful Brand in Web Development',
+      excerpt: 'Struggling to attract high-paying clients? Discover how to blend web development, graphics, and video editing into a killer personal brand.',
+      content: `In the modern digital landscape, being a standard web developer is no longer enough to command premium rates. Clients aren't just looking for code; they are looking for comprehensive digital experiences.
+
+### The Power of Full-Stack Brand Identity
+When you combine high-end **Web Development** with bespoke **Graphics Design** and cinematic **Video Editing**, you offer a unified solution. This is exactly how we established **UNIVYLE Studio**. 
+
+Here is how you can duplicate this success:
+1. **Showcase Your Workflow**: Clients love seeing the process. Use short, edited video case studies to demonstrate how you code and design.
+2. **Focus on Outcomes, Not Tech Stack**: Instead of saying "I build React websites", say "I build high-performance web applications that convert visitors into paying clients."
+3. **Niche Down & Scale Up**: Specialize in highly visual industries (e.g., tech startups, high-end content creators) where graphics and motion design are just as critical as the backend code.
+
+By positioning yourself as a visual product studio rather than a line-coder, you instantly differentiate your business from thousands of freelance competitors.`,
+      category: 'Web Development',
+      author: 'Sanjib Sarkar',
+      readTime: '7 min read',
+      coverImage: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80',
+      createdAt: '2026-06-29T12:00:00Z',
+      tags: ['Freelancing', 'Web Dev', 'Branding', 'UNIVYLE']
+    },
+    {
+      id: 'b-3',
+      title: 'Video Editing Secrets for High-Retention YouTube Content',
+      excerpt: 'Discover the editing strategies, pacing rules, and graphic overlays used by top creators to capture attention and boost YouTube retention.',
+      content: `With YouTube's algorithm prioritizing Average View Duration (AVD) and Click-Through Rate (CTR) above all else, video editing has become a psychological battle for human attention.
+
+### 1. The 3-Second Pacing Rule
+Every three seconds, *something* must change on the screen. It doesn't have to be a dramatic cut. It can be:
+- A subtle zoom-in or zoom-out (camera punch-ins)
+- An animated text overlay or lower-third graphic
+- A sound effect (whoosh, hit, or transition click)
+- B-roll footage replacing the talking head
+
+### 2. Audio Design Is 50% of the Video
+Many novice editors spend 90% of their time on visuals, completely neglecting the audio. High-retention videos utilize a rich soundscape:
+- **L-cuts and J-cuts**: Seamlessly blending audio from the next scene before or after the visual transition.
+- **Parametric EQ & Compression**: Ensuring host voiceovers are crisp, rich, and clear of low-end rumble.
+
+### 3. Integrated Motion Graphics
+Instead of default templates, design bespoke motion elements that match your brand. Circular progress bars, highlighting crucial code elements, or mapping animated vectors can elevate an amateur video into a premium production.`,
+      category: 'Video Editing',
+      author: 'Sanjib Sarkar',
+      readTime: '6 min read',
+      coverImage: 'https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=800&auto=format&fit=crop&q=80',
+      createdAt: '2026-06-30T15:00:00Z',
+      tags: ['Video Editing', 'Premiere Pro', 'YouTube', 'Retention']
+    }
+  ],
+  leads: [
+    {
+      id: 'l-1',
+      name: 'Tanvir Rahman',
+      email: 'tanvir.tech@gmail.com',
+      service: 'web',
+      message: 'Hello Sanjib, I saw your UNIVYLE Studio portfolio and loved the web development section. I have a tech startup and we need a premium website with custom graphics. Let us discuss the timeline and budget.',
+      status: 'new',
+      createdAt: '2026-06-29T10:45:00Z'
+    },
+    {
+      id: 'l-2',
+      name: 'Farhana Kabir',
+      email: 'farhana.design@outlook.com',
+      service: 'graphics',
+      message: 'Need a brand identity design package including a logo, business cards, and social media banners. Graphics design is what we need urgently.',
+      status: 'contacted',
+      createdAt: '2026-06-28T14:15:00Z'
+    }
+  ],
+  bookings: [
+    {
+      id: 'bk-1',
+      name: 'Rakibul Islam',
+      email: 'rakibul.stu@gmail.com',
+      phone: '+8801712345678',
+      course: 'Creative Graphic Design & Brand Identity',
+      preferredTime: 'Evening (6:00 PM - 9:00 PM)',
+      notes: 'I am a beginner. Want to learn Photoshop and Illustrator to start my freelancing career.',
+      status: 'new',
+      createdAt: '2026-06-30T09:30:00Z'
+    }
+  ],
+  portfolio: [
+    {
+      id: 'port-1',
+      title: 'Aura Fintech Landing Page',
+      category: 'web',
+      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80',
+      description: 'A premium neo-brutalist financial platform built with React, Vite, Tailwind CSS, and Framer Motion features, showcasing fluid layout transitions.',
+      link: '#',
+      mediaType: 'image'
+    },
+    {
+      id: 'port-2',
+      title: 'Nirvana Coffee Rebranding',
+      category: 'graphics',
+      image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&auto=format&fit=crop&q=80',
+      description: 'Complete brand packaging and custom vector illustration work for an organic coffee house chain, delivering a warm and vintage aesthetic.',
+      link: '#',
+      mediaType: 'image'
+    },
+    {
+      id: 'port-3',
+      title: 'Apex Esports Promo Video',
+      category: 'video',
+      image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&auto=format&fit=crop&q=80',
+      description: 'High-energy advertising video with professional keyframe animations, audio synchronization, custom overlays, and intense color grading.',
+      link: '#',
+      videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-man-editing-video-on-a-computer-43034-large.mp4',
+      mediaType: 'video'
+    },
+    {
+      id: 'port-4',
+      title: 'Nexus Real Estate Portal',
+      category: 'web',
+      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&auto=format&fit=crop&q=80',
+      description: 'An advanced web directory with dynamic search filters, interactive map integration, and an custom email inquiry pipeline.',
+      link: '#',
+      mediaType: 'image'
+    },
+    {
+      id: 'port-5',
+      title: 'Cosmic Music Album Art',
+      category: 'graphics',
+      image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80',
+      description: 'Stunning futuristic cover art designed using advanced photo manipulation, neon gradient masks, and cosmic star brush patterns.',
+      link: '#',
+      mediaType: 'image'
+    },
+    {
+      id: 'port-6',
+      title: 'UNIVYLE Studio Agency Showreel',
+      category: 'video',
+      image: 'https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?w=800&auto=format&fit=crop&q=80',
+      description: 'A professional and dynamic brand showreel showing clean animation, screen recording mockups, and typographic cuts.',
+      link: '#',
+      videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-software-developer-working-on-his-computer-34285-large.mp4',
+      mediaType: 'video'
+    }
+  ],
+  testimonials: [
+    {
+      id: 't-1',
+      clientName: 'Sarah Jenkins',
+      company: 'CEO, BrightByte Media',
+      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80',
+      rating: 5,
+      feedback: 'UNIVYLE Studio delivered beyond our expectations! The web development speed is unmatched, and the custom graphics look incredible. Our traffic has grown by 40% since the redesign.',
+      serviceType: 'Web Dev & Graphics'
+    },
+    {
+      id: 't-2',
+      clientName: 'Zubair Hossain',
+      company: 'Marketing Manager, Apex Esports',
+      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80',
+      rating: 5,
+      feedback: 'The video editing pacing and custom motion graphics designed for our promotional campaigns are top-tier. Highly recommended for any professional brand!',
+      serviceType: 'Video Editing'
+    }
+  ],
+  courses: [
+    {
+      id: 'c-1',
+      title: 'AI Income Project',
+      description: 'Learn how to use Artificial Intelligence to create digital products, generate high-quality content, build automated workflows, and earn through freelancing, online services, and digital businesses.',
+      duration: '6 Weeks (Live Interactive Training)',
+      syllabus: [
+        'AI Fundamentals',
+        'Prompt Engineering',
+        'ChatGPT Workflow',
+        'Nano Banana Workflow',
+        'AI Image Generation',
+        'AI Video Generation',
+        'Content Creation Strategy',
+        'Digital Product Creation',
+        'Freelancing Workflow',
+        'Client Project Management',
+        'AI Business Automation',
+        'Online Income Systems'
+      ],
+      price: '',
+      category: 'other',
+      tagline: 'Turn AI Skills into Real Income',
+      level: 'Beginner to Advanced',
+      projectsIncluded: '4+ Live Implementation Projects',
+      softwareMastered: ['ChatGPT', 'Nano Banana'],
+      careerOpportunities: ['AI Content Creator', 'Prompt Engineer', 'AI Freelancer', 'Digital Product Creator', 'AI Consultant'],
+      overview: 'This program focuses on practical implementation instead of theory. Master prompt writing, asset generations, and end-to-end automated monetization strategies.'
+    },
+    {
+      id: 'c-2',
+      title: 'Faceless Income Project',
+      description: 'Launch and grow highly profitable faceless YouTube and social media channels. Learn how to script, edit, and automate videos without showing your face using advanced AI workflows.',
+      duration: '8 Weeks (Live Interactive Training)',
+      syllabus: [
+        'Channel Setup',
+        'Niche Research',
+        'Content Planning',
+        'Script Writing',
+        'AI Voice Workflow',
+        'Thumbnail Design',
+        'Video Editing',
+        'YouTube SEO',
+        'Audience Growth',
+        'Monetization',
+        'Affiliate Marketing',
+        'Analytics'
+      ],
+      price: '',
+      category: 'video',
+      tagline: 'Build & Monetize YouTube Channels Without Showing Your Face',
+      level: 'Beginner to Advanced',
+      projectsIncluded: '2+ Complete Channel Case Studies',
+      softwareMastered: ['ChatGPT', 'Nano Banana', 'Adobe Premiere Pro', 'Adobe Photoshop'],
+      careerOpportunities: ['YouTube Creator', 'Content Strategist', 'Video Producer', 'Freelance Content Creator'],
+      overview: 'Learn how to build professional YouTube channels using AI-assisted workflows. From niche research to video publishing and monetization, everything is taught through real projects.'
+    },
+    {
+      id: 'c-3',
+      title: 'AI Graphics Design Master',
+      description: 'Master next-generation graphic design using cutting-edge AI. Learn to design premium posters, logos, ads, brand assets, and UGC ad graphics instantly.',
+      duration: '8 Weeks (Live Interactive Training)',
+      syllabus: [
+        'AI Design Workflow',
+        'Logo Design',
+        'Brand Identity',
+        'Poster Design',
+        'Social Media Design',
+        'Advertisement Design',
+        'Product Creatives',
+        'Packaging Design',
+        'UGC Creatives',
+        'Prompt Writing for Design',
+        'Client Presentation',
+        'Design Workflow'
+      ],
+      price: '',
+      category: 'graphics',
+      tagline: 'Design Smarter with Artificial Intelligence',
+      level: 'Beginner to Advanced',
+      projectsIncluded: '5+ Professional Client Briefs',
+      softwareMastered: ['Adobe Photoshop', 'Adobe Illustrator', 'ChatGPT', 'Nano Banana'],
+      careerOpportunities: ['Graphic Designer', 'Brand Designer', 'Creative Designer', 'Advertising Designer'],
+      overview: 'Master modern graphic design by combining professional design principles with AI-powered workflows. Learn to create high-converting marketing assets, branding systems, advertisements, and social media creatives.'
+    },
+    {
+      id: 'c-4',
+      title: 'UI/UX Design Masterclass',
+      description: 'Learn complete UI/UX design from user research to interactive prototypes. Build responsive websites and mobile app interfaces using Figma.',
+      duration: '10 Weeks (Live Interactive Training)',
+      syllabus: [
+        'UI Design Principles',
+        'UX Fundamentals',
+        'User Research',
+        'Information Architecture',
+        'Wireframing',
+        'Design Systems',
+        'Auto Layout',
+        'Components',
+        'Responsive Design',
+        'Interactive Prototypes',
+        'Developer Handoff',
+        'Portfolio Projects'
+      ],
+      price: '',
+      category: 'web',
+      tagline: 'Design Modern Digital Experiences',
+      level: 'Beginner to Advanced',
+      projectsIncluded: '2 High-Fidelity App & Web Case Studies',
+      softwareMastered: ['Figma'],
+      careerOpportunities: ['UI Designer', 'UX Designer', 'Product Designer', 'Web Designer'],
+      overview: 'Learn user experience and user interface design from scratch. Master wireframing, high-fidelity layouts, interactive prototypes, and user research using Figma.'
+    },
+    {
+      id: 'c-5',
+      title: 'WordPress Development',
+      description: 'Build professional custom websites, blogs, and fully functional e-commerce stores using WordPress, premium themes, and Elementor page builder.',
+      duration: '8 Weeks (Live Interactive Training)',
+      syllabus: [
+        'WordPress Setup',
+        'Dashboard Management',
+        'Theme Customization',
+        'Elementor',
+        'WooCommerce',
+        'Landing Pages',
+        'Business Websites',
+        'eCommerce Development',
+        'Payment Gateway Integration',
+        'Website Security',
+        'Performance Optimization',
+        'Client Delivery Workflow'
+      ],
+      price: '',
+      category: 'web',
+      tagline: 'Build Professional Websites Without Coding',
+      level: 'Beginner to Advanced',
+      projectsIncluded: '4 Functional Client Websites',
+      softwareMastered: ['WordPress', 'Elementor', 'WooCommerce'],
+      careerOpportunities: ['WordPress Developer', 'Web Designer', 'eCommerce Developer', 'Freelance Website Developer'],
+      overview: 'Learn how to design business websites, landing pages, blogs, and complete eCommerce stores using WordPress. This program focuses on practical client projects and deployment.'
+    },
+    {
+      id: 'c-6',
+      title: 'Professional Video Editing',
+      description: 'Learn the art of high-retention video editing. Master timeline pacing, sound design, custom overlays, animations, and cinematic color grading.',
+      duration: '8 Weeks (Live Interactive Training)',
+      syllabus: [
+        'Editing Workflow',
+        'Storytelling',
+        'Timeline Management',
+        'Motion Graphics',
+        'Audio Editing',
+        'Sound Design',
+        'Color Correction',
+        'Color Grading',
+        'Cinematic Editing',
+        'Short-form Video Editing',
+        'Commercial Editing',
+        'Export Workflow'
+      ],
+      price: '',
+      category: 'video',
+      tagline: 'Create Videos That Capture Attention',
+      level: 'Beginner to Advanced',
+      projectsIncluded: '3 High-retention Commercial Videos',
+      softwareMastered: ['Adobe Premiere Pro', 'Adobe After Effects'],
+      careerOpportunities: ['Video Editor', 'Motion Graphics Designer', 'Content Editor', 'Commercial Video Editor'],
+      overview: 'Master professional editing techniques for YouTube, social media, advertisements, documentaries, and commercial projects using industry-standard Premiere Pro and After Effects workflows.'
+    },
+    {
+      id: 'c-7',
+      title: 'Creative Graphic Design',
+      description: 'Master professional graphic design tools. Learn to create corporate branding, clean vector art, and professional print-ready materials from ground up.',
+      duration: '8 Weeks (Live Interactive Training)',
+      syllabus: [
+        'Design Fundamentals',
+        'Typography',
+        'Color Theory',
+        'Logo Design',
+        'Brand Identity',
+        'Print Design',
+        'Marketing Creatives',
+        'Social Media Design',
+        'Vector Illustration',
+        'Photo Manipulation',
+        'Portfolio Development',
+        'Client Workflow'
+      ],
+      price: '',
+      category: 'graphics',
+      tagline: 'Build a Strong Foundation in Visual Design',
+      level: 'Beginner to Advanced',
+      projectsIncluded: '10+ Brand Identity Assets',
+      softwareMastered: ['Adobe Photoshop', 'Adobe Illustrator'],
+      careerOpportunities: ['Graphic Designer', 'Brand Identity Designer', 'Print Designer', 'Marketing Designer'],
+      overview: 'Develop professional graphic design skills from the ground up. Learn branding, visual communication, print media, digital marketing creatives, and portfolio development.'
+    }
+  ],
+  settings: {
+    adSenseEnabled: true,
+    adsText: 'Sponsored Ad Placeholder - Google AdSense Live Demo',
+    heroTitle: 'Discover Premium AI Prompts & Freelance Digital Solutions',
+    heroSubtitle: 'Welcome to UNIVYLE Studio. Your hub for ChatGPT / Midjourney prompts, high-end Graphics, cinematic Video Editing, and Full-Stack Web Development.',
+    notificationAlert: '🔥 SPECIAL OFFER: Register for any UNIVYLE course today and get a 20% discount. Book a callback call now!',
+    profileBio: 'Sanjib Sarkar is a passionate freelance professional and the founder of UNIVYLE Studio, specializing in Web Development, Graphics, and Video Production. Helping brands build styles beyond limits.',
+    profileHourlyRate: '$45/hr',
+    profileAvailability: 'Available'
+  },
+  premiumPacks: [
+    {
+      id: 'pack-1',
+      title: 'Ultimate Midjourney Cinematic Pack',
+      tagline: '100+ Cinema-Grade Image Prompts',
+      description: 'A hand-crafted collection of 100+ Midjourney v6 prompts for cinematic photography and editorial shoots.',
+      price: 249,
+      currency: 'BDT',
+      coverImage: 'https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop&q=80',
+      previewImages: [
+        'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80',
+        'https://images.unsplash.com/photo-1620121692029-d088224ddc74?w=600&auto=format&fit=crop&q=80',
+      ],
+      totalPrompts: 100,
+      pages: 28,
+      format: 'PDF + TXT',
+      category: 'Midjourney',
+      highlights: ['100+ Tested Prompts', 'Cinematic, Portrait & Fashion categories', 'WhatsApp Delivery', 'Free updates 6 months'],
+      faqs: [
+        { question: 'কিভাবে ডেলিভারি পাব?', answer: 'Payment পর WhatsApp/Email-এ PDF পাঠানো হবে।' },
+        { question: 'Refund হবে কি?', answer: 'Digital product, refund নেই। সমস্যায় WhatsApp করুন।' },
+      ],
+      isFeatured: true,
+      isAvailable: true,
+    },
+    {
+      id: 'pack-2',
+      title: 'ChatGPT Business Powerhouse Pack',
+      tagline: '75+ High-Converting Business Prompts',
+      description: '75+ battle-tested ChatGPT prompts for sales copy, emails, proposals and content.',
+      price: 199,
+      currency: 'BDT',
+      coverImage: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=80',
+      previewImages: ['https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=600&auto=format&fit=crop&q=80'],
+      totalPrompts: 75,
+      pages: 22,
+      format: 'PDF + TXT',
+      category: 'ChatGPT',
+      highlights: ['75+ Business Prompts', 'Sales, Email & Social Media', 'Works with GPT-3.5, GPT-4 & 4o', 'WhatsApp Delivery'],
+      faqs: [{ question: 'ChatGPT 3.5 দিয়ে কাজ করবে?', answer: 'হ্যাঁ, সব versions এ কাজ করে।' }],
+      isFeatured: false,
+      isAvailable: true,
+    },
+  ],
+  purchaseRequests: [],
+  stats: {
+    totalPrompts: 6,
+    totalCopies: 1882,
+    totalLeads: 2,
+    totalBookings: 1,
+    totalPurchaseRequests: 0,
+    simulatedViews: 4892,
+    adRevenue: 85.50
+  }
+};
